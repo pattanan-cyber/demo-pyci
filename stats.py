@@ -37,4 +37,3 @@ def variance(data):
 def stdev(data):
     """The population standard deviation of a list of data values."""
     return sqrt(variance(data))
-
