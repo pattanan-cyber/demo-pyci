@@ -12,3 +12,7 @@ script: ./scripts/run-tests.sh
 
 deploy:
   skip_cleanup: true
+language: ruby
+rvm:
+ - 2.2
+ - jruby
