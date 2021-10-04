@@ -1,0 +1,14 @@
+install: ./install-dependencies.sh
+install:
+- bundle install --path vendor/bundle
+- npm install
+install: skip
+script: bundle exec thor build
+script:
+- bundle exec rake build
+- bundle exec rake builddoc
+script: bundle exec rake build && bundle exec rake builddoc
+script: ./scripts/run-tests.sh
+
+deploy:
+  skip_cleanup: true
