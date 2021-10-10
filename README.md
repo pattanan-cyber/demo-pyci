@@ -1,6 +1,6 @@
 Continuous Integration Demo
 ============================
-[![Build Status](https://travis-ci.com/your_acctid/demo-pyci.svg?branch=master)](https://travis-ci.com/your_acctid/demo-pyci)
+[![Build Status](https://app.travis-ci.com/pattanan-cyber/demo-pyci.svg?token=GDxA4j2nWz1qqfygw9sR&branch=main)](https://app.travis-ci.com/pattanan-cyber/demo-pyci)
 
 This project demonstrates use of Travis CI to build and test a Python project.  
 You will create a repository on Github, then have Travis-CI pull and test it,
